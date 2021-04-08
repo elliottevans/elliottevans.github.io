@@ -24,6 +24,13 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        {% if site.email %}
+            <a href="mailto:{{ site.email }}">
+              <meta itemprop="email" content="{{ site.email }}" />
+              <p class="fas fa-fw fa-envelope-square" aria-hidden="true"></p><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+            </a>
+        {% endif %}
+
         {% if site.location %}
         <p class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></p> <span itemprop="name">{{ site.location }}</span>
         {% endif %}
