@@ -1,4 +1,4 @@
-![](/assets/img/civis.jpeg =286.75x89)
+![](/assets/img/civis.jpeg =286x89)
 
 You can use the [editor on GitHub](https://github.com/elliottevans/elliottevans.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
