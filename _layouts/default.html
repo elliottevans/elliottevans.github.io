@@ -31,6 +31,12 @@
             </a>
         {% endif %}
 
+        {% if site.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+              <p class="fab fa-fw fa-linkedin" aria-hidden="true"></p><span class="label">LinkedIn</span>
+            </a>
+        {% endif %}
+
         {% if site.location %}
         <p class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></p> <span itemprop="name">{{ site.location }}</span>
         {% endif %}
