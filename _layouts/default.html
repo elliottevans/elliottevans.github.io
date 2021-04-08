@@ -25,9 +25,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.location %}
-          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ site.location }}</span>
-          </li>
+        <p class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></p> <span itemprop="name">{{ site.location }}</span>
         {% endif %}
 
         {% if site.github.is_project_page %}
