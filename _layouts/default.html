@@ -23,6 +23,12 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        {% if author.location %}
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ site.location }}</span>
+          </li>
+        {% endif %}
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
