@@ -8,7 +8,7 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 <a href="https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/">
    <img src="/assets/img/civis_forecasts_2018.jpeg"
-   width="82" height="45">
+   width="164" height="90">
 </a>
 
 ### Markdown
