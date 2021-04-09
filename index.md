@@ -1,6 +1,6 @@
 <img src="/assets/img/civis.jpeg" alt="drawing" width="115" height="36"/>
 
-For the last three years at [Civis Analytics](https://www.civisanalytics.com/), I've used statistical modeling and machine learning to help democratic candidates win elections.
+As a staff data scientist at [Civis Analytics](https://www.civisanalytics.com/), I've used statistical modeling and machine learning to help democratic candidates win elections.
 
 From state legislatures to the US senate, we've employed Bayesian and optimization tools to aid efforts in resource allocation, voter targeting, and message testing.
 
