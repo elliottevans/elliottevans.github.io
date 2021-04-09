@@ -8,7 +8,7 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 <a href="https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/">
    <img src="/assets/img/civis_forecasts_2018.jpeg"
-   width="683" height="310">
+   width="683" height="310" class="center">
 </a>
 
 ***
@@ -19,7 +19,7 @@ In 2018, I finished my M.S. in applied statistics at the University of Michigan 
 
 <a href="https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf">
    <img src="/assets/img/spatial.png"
-   width="357" height="390">
+   width="275" height="300" class="center">
 </a>
 
 ### Markdown
