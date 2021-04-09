@@ -1,4 +1,4 @@
-<img src="drawing.jpg" alt="drawing" width="115" height="36"/>
+<img src="/assets/img/civis.jpeg" alt="drawing" width="115" height="36"/>
 
 You can use the [editor on GitHub](https://github.com/elliottevans/elliottevans.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
