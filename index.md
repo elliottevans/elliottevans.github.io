@@ -8,7 +8,7 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 <a href="https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/">
    <img src="/assets/img/civis_forecasts_2018.jpeg"
-   width="683" height="310" class="center">
+   width="683" height="310">
 </a>
 
 ***
@@ -17,10 +17,12 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 In 2018, I finished my M.S. in applied statistics at the University of Michigan - Ann Arbor. I worked on projects ranging from [modeling spatial effects](https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf) in high school graduation rates to [predicting probability of heart disease](https://github.com/elliottevans/biostat682umich/blob/master/final_project.pdf) with Bayesian logit models.
 
-<a href="https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf">
-   <img src="/assets/img/spatial.png"
-   width="275" height="300" class="center">
-</a>
+<p style="text-align:center;">
+  <a href="https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf">
+     <img src="/assets/img/spatial.png"
+     width="275" height="300">
+  </a>
+</p>
 
 ### Markdown
 
