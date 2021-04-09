@@ -28,7 +28,7 @@ In 2018, I finished my M.S. in applied statistics at the University of Michigan 
 
 ***
 
-<img src="/assets/img/census_logo.jpeg" width="115" height="36"/>
+<img src="/assets/img/census_logo.jpeg" width="115" height="56"/>
 
 
 ### Markdown
