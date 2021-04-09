@@ -1,4 +1,4 @@
-<img src="/assets/img/civis.jpeg" alt="drawing" width="115" height="36"/>
+<img src="/assets/img/civis.jpeg" width="115" height="36"/>
 
 As a staff data scientist at [Civis Analytics](https://www.civisanalytics.com/), I've used statistical modeling and machine learning to help democratic candidates win elections.
 
@@ -12,6 +12,8 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 </a>
 
 ***
+
+<img src="/assets/img/umich_logo.jpeg" width="115" height="36"/>
 
 ### Markdown
 
