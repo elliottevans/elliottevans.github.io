@@ -11,6 +11,8 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
    width="683" height="330">
 </a>
 
+***
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
