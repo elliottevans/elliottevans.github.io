@@ -6,10 +6,12 @@ From state legislatures to the US senate, we've employed Bayesian and optimizati
 
 Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/).
 
-<a href="https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/">
-   <img src="/assets/img/civis_forecasts_2018.jpeg"
-   width="683" height="310">
-</a>
+<p style="text-align:center;">
+  <a href="https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/">
+     <img src="/assets/img/civis_forecasts_2018.jpeg"
+     width="683" height="310">
+  </a>
+</p>
 
 ***
 
@@ -23,6 +25,11 @@ In 2018, I finished my M.S. in applied statistics at the University of Michigan 
      width="275" height="300">
   </a>
 </p>
+
+***
+
+<img src="/assets/img/census_logo.jpeg" width="115" height="36"/>
+
 
 ### Markdown
 
