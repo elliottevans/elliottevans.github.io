@@ -13,7 +13,7 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 ***
 
-<img src="/assets/img/umich_logo.jpg" width="115" height="36"/>
+<img src="/assets/img/umich_logo.jpg" width="135" height="36"/>
 
 ### Markdown
 
