@@ -1,8 +1,15 @@
 <img src="/assets/img/civis.jpeg" alt="drawing" width="115" height="36"/>
 
-You can use the [editor on GitHub](https://github.com/elliottevans/elliottevans.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+For the last three years, I've used statistical modeling and machine learning to help democratic candidates win elections.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+From state legislatures to the US senate, we've employed Bayesian and optimization tools to aid efforts in resource allocation, voter targeting, and message testing.
+
+Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/).
+
+<a href="https://www.civisanalytics.com/blog/political/data-science-and-the-midterm-elections-breaking-down-the-results/">
+   <img src="/assets/img/civis_forecasts_2018.jpeg"
+   width="82" height="45">
+</a>
 
 ### Markdown
 
