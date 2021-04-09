@@ -19,7 +19,7 @@ In 2018, I finished my M.S. in applied statistics at the University of Michigan 
 
 <a href="https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf">
    <img src="/assets/img/spatial.png"
-   width="714" height="780">
+   width="357" height="390">
 </a>
 
 ### Markdown
