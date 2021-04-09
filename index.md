@@ -15,6 +15,13 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 <img src="/assets/img/umich_logo.jpg" width="135" height="36"/>
 
+In 2018, I finished my M.S. in applied statistics at the University of Michigan - Ann Arbor. I worked on projects ranging from [modeling spatial effects](https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf) in high school graduation rates to [predicting probability of heart disease](https://github.com/elliottevans/biostat682umich/blob/master/final_project.pdf) with Bayesian logit models.
+
+<a href="https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf">
+   <img src="/assets/img/spatial.png"
+   width="714" height="780">
+</a>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
