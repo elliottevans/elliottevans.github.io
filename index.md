@@ -15,7 +15,7 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 ***
 
-<img src="/assets/img/umich_logo.jpg" width="135" height="36"/>
+<img src="/assets/img/umich_logo.jpg" width="145" height="36"/>
 
 In 2018, I finished my M.S. in applied statistics at the University of Michigan - Ann Arbor. I worked on projects ranging from [modeling spatial effects](https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf) in high school graduation rates to [predicting probability of heart disease](https://github.com/elliottevans/biostat682umich/blob/master/final_project.pdf) with Bayesian logit models.
 
@@ -36,7 +36,7 @@ I helped analyze results of [empirical Bayesian kriging](https://pro.arcgis.com/
 
 ***
 
-<img src="/assets/img/options_house_logo.jpeg" width="115" height="56"/>
+<img src="/assets/img/options_house_logo.jpg" width="115" height="56"/>
 
 
 
