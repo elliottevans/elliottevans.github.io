@@ -32,7 +32,12 @@ In 2018, I finished my M.S. in applied statistics at the University of Michigan 
 
 In the summer of 2017, I worked as a survey statistician intern at the [Education, Demographic, Geographic Estimates (EDGE) Branch](https://nces.ed.gov/programs/edge/Home) of the US Census Bureau.
 
-Here, I helped analyze results of [empirical Bayesian kriging](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geostatistical-analyst/what-is-empirical-bayesian-kriging-.htm) on income-to-poverty ratios for US public schools. These estimates, in conjunction with other information from the EDGE branch, are what help the Education Department allocate funds for targeted assistance programs for public schools.
+I helped analyze results of [empirical Bayesian kriging](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geostatistical-analyst/what-is-empirical-bayesian-kriging-.htm) on income-to-poverty ratios for US public schools. These estimates, in conjunction with other information from the EDGE branch, are what help the Education Department allocate funds for targeted assistance programs for public schools.
+
+***
+
+<img src="/assets/img/options_house_logo.jpeg" width="115" height="56"/>
+
 
 
 ### Markdown
