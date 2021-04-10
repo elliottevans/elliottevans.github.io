@@ -42,7 +42,7 @@ From 2015 to 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/bus
 
 ***
 
-<img src="/assets/img/nu_logo.png" width="245" height="36"/>
+<img src="/assets/img/nu_logo.png" width="255" height="36"/>
 
 In 2015, I completed my B.A. at Northwestern University, double majoring in mathematics and statistics, and minoring in computer science.
 
