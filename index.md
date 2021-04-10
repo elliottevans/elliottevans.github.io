@@ -36,7 +36,7 @@ I helped analyze results of [empirical Bayesian kriging](https://pro.arcgis.com/
 
 ***
 
-<img src="/assets/img/options_house_logo.jpg" width="145" height="56"/>
+<img src="/assets/img/options_house_logo.jpg" width="165" height="56"/>
 
 
 
