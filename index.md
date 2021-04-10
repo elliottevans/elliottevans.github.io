@@ -38,7 +38,7 @@ I helped analyze results of [empirical Bayesian kriging](https://pro.arcgis.com/
 
 <img src="/assets/img/options_house_logo.jpg" width="185" height="46"/>
 
-Until summer 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/business/blue-sky/ct-etrade-optionshouse-acquisition-bsi-20160725-story.html), an online brokerage firm specializing in options trading. As a Jr business intelligence analyst, I focused on user trading behavior and customer segmentation, while getting to apply tools like [decision trees](https://en.wikipedia.org/wiki/Decision_tree) and [survival analysis](https://en.wikipedia.org/wiki/Survival_analysis).
+From 2015 to 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/business/blue-sky/ct-etrade-optionshouse-acquisition-bsi-20160725-story.html), an online brokerage firm specializing in options trading. As a Jr business intelligence analyst, I focused on user trading behavior and customer segmentation, while getting to apply tools like [decision trees](https://en.wikipedia.org/wiki/Decision_tree) and [survival analysis](https://en.wikipedia.org/wiki/Survival_analysis).
 
 ***
 
