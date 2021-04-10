@@ -42,7 +42,7 @@ Until summer 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/bus
 
 ***
 
-<img src="/assets/img/nu_logo.png" width="235" height="36"/>
+<img src="/assets/img/nu_logo.png" width="245" height="36"/>
 
 In 2015, I completed by B.A. at Northwestern University, double majoring in mathematics and statistics, and minoring in computer science.
 
@@ -56,6 +56,25 @@ In four years, I studied everything from abstract algebra, to regression analysi
 </p>
 
 ***
+
+## Other Fun Stuff
+
+I like to write! Especially about baseball and politics. Here are some statistcs-driven articles I've written over the years:
+
+### Politics
+- [Were Forecasters Wrong about Donald Trump?](https://medium.com/@elliott.evans/were-forecasters-wrong-about-donald-trump-ae36e26a0c6a) - medium
+- [When Will America be Ready for a Gay President?](https://medium.com/@elliott.evans/when-will-america-be-ready-for-a-gay-president-abf16b4f225a) - medium
+
+### Baseball
+- [The Luckiest and Unluckiest Baseball Seasons Over the Last 5 Years](https://www.numberfire.com/mlb/news/2464/the-luckiest-and-unluckiest-baseball-seasons-over-the-last-5-years) - numberFire
+- [How Well Are Baseball's Best Relievers Being Used?](https://www.numberfire.com/mlb/news/2534/how-well-are-baseball-s-best-relievers-being-used) - numberFire
+- [All or Nothing: How the Baltimore Orioles Found Success](https://www.numberfire.com/mlb/news/2748/all-or-nothing-how-the-baltimore-orioles-found-success) - numberFire
+- [Are Schilling and Mussina Comparable to Other Baseball Hall of Famers?](https://www.numberfire.com/mlb/news/4279/are-schilling-and-mussina-comparable-to-other-baseball-hall-of-famers) - numberFire
+- [Six Feet Under: Evaluating Short Pitchers](https://community.fangraphs.com/six-feet-under-evaluating-short-pitchers/) - [The Best of FanGraphs: March 30-April 3, 2015](https://blogs.fangraphs.com/the-best-of-fangraphs-march-30-april-3-2015/)
+- [What’s the Value of a Home Run These Days?](https://community.fangraphs.com/whats-the-value-of-a-home-run-these-days/) - [The Best of FanGraphs: March 24-28, 2014](https://blogs.fangraphs.com/the-best-of-fangraphs-march-24-28-2014/)
+- [How Rare Is a Chris Davis Comeback?](https://community.fangraphs.com/how-rare-is-a-chris-davis-comeback/) - FanGraphs
+
+
 
 ## Resume
 
