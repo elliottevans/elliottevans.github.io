@@ -44,7 +44,7 @@ From 2015 to 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/bus
 
 <img src="/assets/img/nu_logo.png" width="245" height="36"/>
 
-In 2015, I completed by B.A. at Northwestern University, double majoring in mathematics and statistics, and minoring in computer science.
+In 2015, I completed my B.A. at Northwestern University, double majoring in mathematics and statistics, and minoring in computer science.
 
 In four years, I studied everything from abstract algebra, to regression analysis, to stochastic processes; I worked on projects ranging from [studying achievement gaps in mathematics testing](/assets/pdf/final_project_hlm.pdf) to [predicting baseball hall-of-fame entry](http://elliottevans.github.io/MLB_HOF_Predictor/).
 
