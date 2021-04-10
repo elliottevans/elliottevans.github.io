@@ -17,10 +17,10 @@ Read about our efforts in the 2018 midterms [here](https://www.civisanalytics.co
 
 <img src="/assets/img/umich_logo.png" width="235" height="36"/>
 
-In 2018, I finished my M.S. in applied statistics at the University of Michigan - Ann Arbor. I worked on projects ranging from [modeling spatial effects](https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf) in high school graduation rates to [predicting probability of heart disease](https://github.com/elliottevans/biostat682umich/blob/master/final_project.pdf) with Bayesian logit models.
+In 2018, I finished my M.S. in applied statistics at the University of Michigan - Ann Arbor. I worked on projects ranging from [modeling spatial effects](/assets/pdf/final_project_schools.pdf) in high school graduation rates to [predicting probability of heart disease](/assets/pdf/final_project_heart_disease.pdf) with Bayesian logit models.
 
 <p style="text-align:center;">
-  <a href="https://github.com/elliottevans/spatial_project/blob/master/tex/final_project.pdf">
+  <a href="/assets/pdf/final_project_heart_disease.pdf">
      <img src="/assets/img/spatial.png"
      width="275" height="300">
   </a>
@@ -47,6 +47,15 @@ Until summer 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/bus
 In 2015, I completed by B.A. at Northwestern University, double majoring in mathematics and statistics, and minoring in computer science.
 
 In four years, I studied everything from abstract algebra, to regression analysis, to stochastic processes; I worked on projects ranging from [studying achievement gaps in mathematics testing](/assets/pdf/final_project_hlm.pdf) to [predicting baseball hall-of-fame entry](http://elliottevans.github.io/MLB_HOF_Predictor/).
+
+<p style="text-align:center;">
+  <a href="http://elliottevans.github.io/MLB_HOF_Predictor/">
+     <img src="/assets/img/gaussianhof.png"
+     width="275" height="300">
+  </a>
+</p>
+
+***
 
 # Resume
 
