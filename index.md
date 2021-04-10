@@ -74,41 +74,8 @@ I like to write! Especially about baseball and politics. Here are some statistcs
 - [What’s the Value of a Home Run These Days?](https://community.fangraphs.com/whats-the-value-of-a-home-run-these-days/) - [The Best of FanGraphs: March 24-28, 2014](https://blogs.fangraphs.com/the-best-of-fangraphs-march-24-28-2014/)
 - [How Rare Is a Chris Davis Comeback?](https://community.fangraphs.com/how-rare-is-a-chris-davis-comeback/) - FanGraphs
 
-
+***
 
 ## Resume
 
 <iframe src="/assets/pdf/Resume_Tech_Slim.pdf" width="100%" height="500px"></iframe>
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elliottevans/elliottevans.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
