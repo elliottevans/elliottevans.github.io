@@ -78,4 +78,6 @@ I like to write! Especially about baseball and politics. Here are some statistcs
 
 ## Resume
 
+Need more info? Here's my resume:
+
 <iframe src="/assets/pdf/Resume_Tech_Slim.pdf" width="100%" height="500px"></iframe>
