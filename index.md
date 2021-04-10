@@ -51,7 +51,7 @@ In four years, I studied everything from abstract algebra, to regression analysi
 <p style="text-align:center;">
   <a href="http://elliottevans.github.io/MLB_HOF_Predictor/">
      <img src="/assets/img/gaussianhof.png"
-     width="305" height="300">
+     width="325" height="300">
   </a>
 </p>
 
