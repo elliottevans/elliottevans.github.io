@@ -23,6 +23,10 @@
         {% if site.logo %}
           <p style="text-align:center;">
             <img src="{{site.logo | relative_url}}" width="200" height="200" alt="Logo" />
+            <a href="mailto:{{ site.email }}">
+              <meta itemprop="email" content="{{ site.email }}" />
+              <p class="fas fa-fw fa-envelope-square" aria-hidden="true"></p><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+            </a>
           </p>
         {% endif %}
 
