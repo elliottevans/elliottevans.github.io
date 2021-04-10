@@ -42,7 +42,7 @@ Until summer 2016, I worked at [OptionsHouse](https://www.chicagotribune.com/bus
 
 ***
 
-<img src="/assets/img/nu_logo.jpg" width="165" height="56"/>
+<img src="/assets/img/nu_logo.jpg" width="185" height="56"/>
 
 # Resume
 
