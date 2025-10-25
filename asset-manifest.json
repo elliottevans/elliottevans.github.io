@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.62427463.css",
-    "main.js": "/static/js/main.d377129e.js",
+    "main.js": "/static/js/main.d97fa98d.js",
     "static/js/940.62d09216.chunk.js": "/static/js/940.62d09216.chunk.js",
     "static/media/numberfire_logo_clean.png": "/static/media/numberfire_logo_clean.1dee128082fdda1930a6.png",
     "static/media/capitalone_logo_clean.png": "/static/media/capitalone_logo_clean.ca34a6ead489f0923374.png",
@@ -14,11 +14,11 @@
     "static/media/georgia_tech_logo_clean.png": "/static/media/georgia_tech_logo_clean.64294cb40281c52519a0.png",
     "index.html": "/index.html",
     "main.62427463.css.map": "/static/css/main.62427463.css.map",
-    "main.d377129e.js.map": "/static/js/main.d377129e.js.map",
+    "main.d97fa98d.js.map": "/static/js/main.d97fa98d.js.map",
     "940.62d09216.chunk.js.map": "/static/js/940.62d09216.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62427463.css",
-    "static/js/main.d377129e.js"
+    "static/js/main.d97fa98d.js"
   ]
 }
