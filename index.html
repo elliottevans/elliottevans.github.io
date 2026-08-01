@@ -151,10 +151,18 @@
     .tl-item.left  .tl-content::after { right: -20px; border-left-color:  var(--arrow); }
     .tl-item.right .tl-content::after { left: -20px;  border-right-color: var(--arrow); }
 
-    .tl-content img { display: block; max-width: 100%; height: auto; margin: -4px 0 16px; object-fit: contain; }
+    /* All timeline logos render at one uniform height; width follows each
+       logo's natural proportions. max-width keeps very wide wordmarks
+       (e.g. Michigan) from overflowing a narrow card. */
+    .tl-content img { display: block; height: 55px; width: auto; max-width: 100%; margin: -4px 0 16px; object-fit: contain; }
     .tl-content h5, .tl-content h6 { margin-bottom: 0.5rem; }
     .tl-subtitle-row { display: flex; justify-content: space-between; align-items: baseline; }
-    .tl-content p { margin-bottom: 0; }
+    /* Divider between the header (title/subtitle) and the description */
+    .tl-content p {
+      margin: 14px 0 0;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.22);
+    }
 
     /* date label floats on the opposite side of the line (desktop) */
     .tl-date {
@@ -242,7 +250,7 @@
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">2021–Present</div>
           <div class="tl-content" style="background:#014A77; --arrow:#014A77;">
-            <img src="assets/capitalone_logo_clean.png" alt="Capital One" style="width:190px;" />
+            <img src="assets/capitalone_logo_clean.png" alt="Capital One" />
             <h5 class="tl-subtitle-row"><span>Data Science Manager</span><span>2025–Present</span></h5>
             <h5 class="tl-subtitle-row"><span>Principal Data Scientist</span><span>2021–2025</span></h5>
             <p>Developing models to stop fraudsters.</p>
@@ -254,7 +262,7 @@
           <div class="tl-icon tl-icon-edu"><i class="fas fa-graduation-cap"></i></div>
           <div class="tl-date">2024–Present</div>
           <div class="tl-content" style="background:#B3A369; --arrow:#B3A369;">
-            <img src="assets/georgia_tech_logo_clean.png" alt="Georgia Institute of Technology" style="width:300px;" />
+            <img src="assets/georgia_tech_logo_clean.png" alt="Georgia Institute of Technology" />
             <h5>M.S. in Computer Science</h5>
             <h6>Artificial Intelligence Specialization</h6>
             <p>Online Master of Science in Computer Science (OMSCS) - Current graduate work in machine learning, AI systems, and computational intelligence.</p>
@@ -266,7 +274,7 @@
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">2018–2021</div>
           <div class="tl-content" style="background:#0F2F48; --arrow:#0F2F48;">
-            <img src="assets/civis_logo_clean.png" alt="Civis Analytics" style="width:190px;" />
+            <img src="assets/civis_logo_clean.png" alt="Civis Analytics" />
             <h5 class="tl-subtitle-row"><span>Staff Data Scientist</span><span>2020–2021</span></h5>
             <h5 class="tl-subtitle-row"><span>Senior Data Scientist</span><span>2018–2020</span></h5>
             <p>Used machine learning to help democrats win elections.</p>
@@ -278,7 +286,7 @@
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">2017</div>
           <div class="tl-content" style="background:#066464; --arrow:#066464;">
-            <img src="assets/census_logo_clean.png" alt="U.S. Census Bureau" style="width:150px;" />
+            <img src="assets/census_logo_clean.png" alt="U.S. Census Bureau" />
             <h5>Survey Statistician Intern</h5>
             <p>Analysed Bayesian kriging methods on income-to-poverty ratios for public schools.</p>
           </div>
@@ -289,7 +297,7 @@
           <div class="tl-icon tl-icon-edu"><i class="fas fa-graduation-cap"></i></div>
           <div class="tl-date">2016–2018</div>
           <div class="tl-content" style="background:#0E284B; --arrow:#0E284B;">
-            <img src="assets/michigan_logo_clean.png" alt="University of Michigan" style="width:475px;" />
+            <img src="assets/michigan_logo_clean.png" alt="University of Michigan" />
             <h5>M.S. in Applied Statistics</h5>
             <p>Focused on Bayesian modeling, statistical inference, and predictive analytics.</p>
           </div>
@@ -300,7 +308,7 @@
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">2016</div>
           <div class="tl-content" style="background:#003D2E; --arrow:#003D2E;">
-            <img src="assets/optionshouse_logo_clean.png" alt="OptionsHouse" style="width:275px;" />
+            <img src="assets/optionshouse_logo_clean.png" alt="OptionsHouse" />
             <h5>Junior Business Intelligence Analyst</h5>
             <p>Modeled user trading behavior and customer segmentation.</p>
           </div>
@@ -311,7 +319,7 @@
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">Jun 2014 – Sep 2014</div>
           <div class="tl-content" style="background:#131313; --arrow:#131313;">
-            <img src="assets/numberfire_logo_clean.png" alt="numberFire" style="width:250px;" />
+            <img src="assets/numberfire_logo_clean.png" alt="numberFire" />
             <h5 class="tl-subtitle-row"><span>MLB Contributor</span></h5>
             <p>Provided data-centric baseball content for the website.</p>
           </div>
@@ -322,7 +330,7 @@
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">Jun 2013 – Sep 2013</div>
           <div class="tl-content" style="background:#000000; --arrow:#000000;">
-            <img src="assets/stats_logo_clean.png" alt="STATS Perform" style="width:200px;" />
+            <img src="assets/stats_logo_clean.png" alt="STATS Perform" />
             <h5 class="tl-subtitle-row"><span>Operations Statistician</span></h5>
             <p>Provided baseball pitch-type analysis for MLB and Japanese games.</p>
           </div>
@@ -333,7 +341,7 @@
           <div class="tl-icon tl-icon-edu"><i class="fas fa-graduation-cap"></i></div>
           <div class="tl-date">2011–2015</div>
           <div class="tl-content" style="background:#4E2686; --arrow:#4E2686;">
-            <img src="assets/northwestern_logo_clean.png" alt="Northwestern University" style="width:300px;" />
+            <img src="assets/northwestern_logo_clean.png" alt="Northwestern University" />
             <h5>B.A.: Mathematics &amp; Statistics</h5>
             <h6>Minor: Computer Science</h6>
             <p>Studied the mathematical foundations that underpin modern statistical modeling and data analysis.</p>
