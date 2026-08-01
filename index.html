@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Elliott Evans</title>
   <meta name="description"
-    content="Principal data scientist at Capital One. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data." />
+    content="Data science manager at Capital One, leading AI-driven models for acquisitions risk. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data." />
   <link rel="shortcut icon" href="assets/favicon.ico" />
 
   <!-- External styling (loaded from CDN) -->
@@ -163,6 +163,12 @@
       padding-top: 14px;
       border-top: 1px solid rgba(255, 255, 255, 0.22);
     }
+    /* Muted sub-line for team / title / focus under a role heading */
+    .tl-meta { font-size: 0.9rem; opacity: 0.82; margin: -2px 0 6px; }
+    /* Cards with more than one role: separate the roles with one divider and
+       drop the per-description divider so it doesn't double up. */
+    .tl-content.tl-multi > p { border-top: none; padding-top: 0; margin-top: 6px; }
+    .tl-sep { border: 0; border-top: 1px solid rgba(255, 255, 255, 0.22); margin: 16px 0; }
 
     /* date label floats on the opposite side of the line (desktop) */
     .tl-date {
@@ -203,7 +209,7 @@
         <ul class="navbar-nav">
           <li class="nav-item lead"><a class="nav-link" href="assets/resume.pdf" target="_blank" rel="noreferrer noopener">Resume</a></li>
           <li class="nav-item lead"><a class="nav-link" href="#aboutme">About</a></li>
-          <li class="nav-item lead"><a class="nav-link" href="#experience">Experiences</a></li>
+          <li class="nav-item lead"><a class="nav-link" href="#experience">Career</a></li>
           <li class="nav-item lead"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item lead"><a class="nav-link" href="#writings">Writings</a></li>
         </ul>
@@ -232,7 +238,7 @@
   <section id="aboutme" class="section-block m-0">
     <div class="container">
       <h2 class="display-4 mb-5 text-center">About Me</h2>
-      <p class="lead text-center">I'm a principal data scientist at Capital One. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data. Go Blue and go 'Cats.</p>
+      <p class="lead text-center">I'm a data science manager at Capital One, leading AI-driven models for acquisitions risk. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data. Go Blue, go 'Cats, and go O's.</p>
       <p class="lead text-center">
         <a class="btn btn-outline-dark btn-lg" href="assets/resume.pdf" target="_blank" rel="noreferrer noopener" role="button" aria-label="Resume/CV">Resume</a>
       </p>
@@ -249,11 +255,18 @@
         <div class="tl-item left">
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">2021–Present</div>
-          <div class="tl-content" style="background:#014A77; --arrow:#014A77;">
+          <div class="tl-content tl-multi" style="background:#014A77; --arrow:#014A77;">
             <img src="assets/capitalone_logo_clean.png" alt="Capital One" />
-            <h5 class="tl-subtitle-row"><span>Data Science Manager</span><span>2025–Present</span></h5>
-            <h5 class="tl-subtitle-row"><span>Principal Data Scientist</span><span>2021–2025</span></h5>
-            <p>Developing models to stop fraudsters.</p>
+
+            <h5 class="tl-subtitle-row"><span>Applied AI – Card</span><span>Mar 2026–Present</span></h5>
+            <div class="tl-meta">Data Science Manager · Lead DS for AI in Credit (Acquisitions Risk)</div>
+            <p>Leading AI-driven credit-risk models.</p>
+
+            <hr class="tl-sep" />
+
+            <h5 class="tl-subtitle-row"><span>Transaction Fraud Data Science</span><span>2021–2026</span></h5>
+            <div class="tl-meta">Principal Data Scientist → Data Science Manager · promoted Jul 2025</div>
+            <p>Developed ML models to detect and stop payment fraud.</p>
           </div>
         </div>
 
@@ -273,11 +286,12 @@
         <div class="tl-item left">
           <div class="tl-icon tl-icon-work"><i class="fas fa-briefcase"></i></div>
           <div class="tl-date">2018–2021</div>
-          <div class="tl-content" style="background:#0F2F48; --arrow:#0F2F48;">
+          <div class="tl-content tl-multi" style="background:#0F2F48; --arrow:#0F2F48;">
             <img src="assets/civis_logo_clean.png" alt="Civis Analytics" />
-            <h5 class="tl-subtitle-row"><span>Staff Data Scientist</span><span>2020–2021</span></h5>
-            <h5 class="tl-subtitle-row"><span>Senior Data Scientist</span><span>2018–2020</span></h5>
-            <p>Used machine learning to help democrats win elections.</p>
+
+            <h5 class="tl-subtitle-row"><span>Political Applied Data Science</span><span>Jul 2018–May 2021</span></h5>
+            <div class="tl-meta">Senior Data Scientist → Staff Data Scientist · promoted Dec 2020</div>
+            <p>Built Bayesian election forecasts for U.S. House, governor, and 6,000 state-legislative races to help elect Democrats.</p>
           </div>
         </div>
 
