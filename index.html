@@ -192,6 +192,21 @@
         text-align: left !important;
       }
     }
+
+    /* Scroll-triggered reveal for timeline entries. The .reveal class is added
+       by JS, so if JavaScript is disabled the entries stay fully visible. */
+    .timeline.reveal .tl-item {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .timeline.reveal .tl-item.tl-visible {
+      opacity: 1;
+      transform: none;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .timeline.reveal .tl-item { opacity: 1; transform: none; transition: none; }
+    }
   </style>
 </head>
 
@@ -494,6 +509,28 @@
       }
       window.addEventListener("scroll", onScroll);
       onScroll();
+    })();
+
+    /* ---------- Timeline: reveal each entry as it scrolls into view ---------- */
+    (function () {
+      var timeline = document.querySelector(".timeline");
+      var items = document.querySelectorAll(".tl-item");
+      if (!timeline || !items.length) return;
+
+      // If IntersectionObserver isn't available, leave entries visible.
+      if (!("IntersectionObserver" in window)) return;
+
+      timeline.classList.add("reveal"); // hides entries until observed
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("tl-visible");
+            observer.unobserve(entry.target); // reveal once, then stop watching
+          }
+        });
+      }, { threshold: 0.15, rootMargin: "0px 0px -10% 0px" });
+
+      items.forEach(function (item) { observer.observe(item); });
     })();
 
     /* ---------- Projects: fetch from the GitHub API ---------- */
