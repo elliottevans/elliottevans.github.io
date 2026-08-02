@@ -207,6 +207,20 @@
     @media (prefers-reduced-motion: reduce) {
       .timeline.reveal .tl-item { opacity: 1; transform: none; transition: none; }
     }
+
+    /* Generic scroll reveal for other sections. Activated by JS adding
+       `js-reveal` to <body>, so content stays visible if JavaScript is off. */
+    body.js-reveal .reveal-up {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    body.js-reveal .reveal-up.revealed { opacity: 1; transform: none; }
+    body.js-reveal .reveal-up.d1 { transition-delay: 0.08s; }
+    body.js-reveal .reveal-up.d2 { transition-delay: 0.16s; }
+    @media (prefers-reduced-motion: reduce) {
+      body.js-reveal .reveal-up { opacity: 1; transform: none; transition: none; }
+    }
   </style>
 </head>
 
@@ -252,9 +266,9 @@
   <!-- ======================= ABOUT ======================= -->
   <section id="aboutme" class="section-block m-0">
     <div class="container">
-      <h2 class="display-4 mb-5 text-center">About Me</h2>
-      <p class="lead text-center">I'm a data science manager at Capital One, leading AI-driven models for acquisitions risk. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data. Go Blue, go 'Cats, and go O's.</p>
-      <p class="lead text-center">
+      <h2 class="display-4 mb-5 text-center reveal-up">About Me</h2>
+      <p class="lead text-center reveal-up d1">I'm a data science manager at Capital One, leading AI-driven models for acquisitions risk. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data. Go Blue, go 'Cats, and go O's.</p>
+      <p class="lead text-center reveal-up d2">
         <a class="btn btn-outline-dark btn-lg" href="assets/resume.pdf" target="_blank" rel="noreferrer noopener" role="button" aria-label="Resume/CV">Resume</a>
       </p>
     </div>
@@ -262,7 +276,7 @@
 
   <!-- ======================= EXPERIENCE ======================= -->
   <section id="experience" class="section-block bg-light m-0">
-    <h2 class="display-4 mb-5 text-center">Career Timeline</h2>
+    <h2 class="display-4 mb-5 text-center reveal-up">Career Timeline</h2>
     <div class="container">
       <div class="timeline">
 
@@ -389,7 +403,7 @@
   <!-- ======================= PROJECTS ======================= -->
   <section id="projects" class="section-block m-0">
     <div class="container">
-      <h2 class="display-4 pb-5 text-center">Projects</h2>
+      <h2 class="display-4 pb-5 text-center reveal-up">Projects</h2>
       <div class="row" id="projects-row"></div>
     </div>
   </section>
@@ -397,65 +411,65 @@
   <!-- ======================= PUBLICATIONS & WRITING ======================= -->
   <section id="writings" class="section-block bg-light m-0">
     <div class="container">
-      <h1 class="text-center display-4">Publications &amp; Writing</h1>
+      <h1 class="text-center display-4 reveal-up">Publications &amp; Writing</h1>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>When Will America Be Ready for a Gay President?</h2>
         <p class="lead">Are most Americans ready to accept an openly gay president? The answer to this question appears to be yes. The more difficult question to answer, rather, is when will enough Americans be ready to accept such a president so as to give them a fair chance of winning the presidency?</p>
         <a href="https://medium.com/@elliott.evans/when-will-america-be-ready-for-a-gay-president-abf16b4f225a" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>Were Forecasters Wrong about Donald Trump?</h2>
         <p class="lead">The question, at its core, is complicated and has ramifications for how comfortable we are with probability, and why we turn to forecasts in the first place.</p>
         <a href="https://medium.com/@elliott.evans/were-forecasters-wrong-about-donald-trump-ae36e26a0c6a" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>The Luckiest and Unluckiest Baseball Seasons Over the Last 5 Years</h2>
         <p class="lead">Even the most talented hitters and pitchers are susceptible to fluctuations in their BABIPs, causing some uncharacteristically great or terrible seasons.</p>
         <a href="https://web.archive.org/web/20201112015501/http://www.numberfire.com/mlb/news/2464/the-luckiest-and-unluckiest-baseball-seasons-over-the-last-5-years" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>How Well Are Baseball's Best Relievers Being Used?</h2>
         <p class="lead">For decades, we've pulled our hair out and grinded our teeth as we watched our favorite closers and set-up men attempt to get the final outs of a ball game. The closer is regarded by most managers to be the most important pitcher on the relief staff. However, this doesn't imply that the closer is pitching the most meaningful innings. It doesn't even imply that the closer is the best reliever on the team.</p>
         <a href="https://web.archive.org/web/20230201085229/www.numberfire.com/mlb/news/2534/how-well-are-baseball-s-best-relievers-being-used" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>All or Nothing: How the Baltimore Orioles Found Success</h2>
         <p class="lead">When the O's finished 93-69 at the end of the 2012 season, managed an AL Wild Card Spot, and eventually took the Yankees to 5 games in a thrilling ALDS, the baseball world was wondering what had just happened.</p>
         <a href="https://web.archive.org/web/20161109110245/www.numberfire.com/mlb/news/2748/all-or-nothing-how-the-baltimore-orioles-found-success" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>Are Schilling and Mussina Comparable to Other Baseball Hall of Famers?</h2>
         <p class="lead">For those who watched Mussina pitch so well for so long, and who saw Schilling dominate batters for years, a question presents itself: Can we not place these two pitchers in the same category as Maddux, Glavine, Johnson, Pedro, and Smoltz? Apparently, Hall of Fame voters are currently reluctant to do so.</p>
         <a href="https://web.archive.org/web/20220701192605/www.numberfire.com/mlb/news/4279/are-schilling-and-mussina-comparable-to-other-baseball-hall-of-famers" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>Six Feet Under: Evaluating Short Pitchers</h2>
         <p class="lead">When we watched Pedro Martinez, commentators and baseball men viewed him as an exception to some obscure and unwritten rule: that shorter athletes can't become successful pitchers.</p>
         <a href="https://community.fangraphs.com/six-feet-under-evaluating-short-pitchers/" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>What's the Value of a Home Run These Days?</h2>
         <p class="lead">Home runs used to be a rarity among baseball events. In the early 20th century, it wasn't uncommon for a player to lead his league in baseball by hitting 10-15 home runs. This brings me to the question: how has the home run actually changed? Not in terms of its frequency, but in terms of its value. More specifically, its value in runs.</p>
         <a href="https://community.fangraphs.com/six-feet-under-evaluating-short-pitchers/" target="_blank" rel="noopener noreferrer">Read more...</a>
         <hr />
       </div>
 
-      <div class="m-5">
+      <div class="m-5 reveal-up">
         <h2>How Rare Is a Chris Davis Comeback?</h2>
         <p class="lead">Just how rare is Davis' comeback? Davis was an established major-league player before this season, having played 723 games while averaging 2.0 WAR per 162 Games. His Oriole-record 53 homers in 2013 (which included 7.1 WAR) made him a star while his forgettable 0.8 WAR in 2014 made him just another one-hit wonder.</p>
         <a href="https://community.fangraphs.com/how-rare-is-a-chris-davis-comeback/" target="_blank" rel="noopener noreferrer">Read more...</a>
@@ -533,6 +547,24 @@
       items.forEach(function (item) { observer.observe(item); });
     })();
 
+    /* ---------- Generic reveal: fade sections up as they enter view ---------- */
+    (function () {
+      if (!("IntersectionObserver" in window)) return; // no JS gate = stays visible
+      document.body.classList.add("js-reveal"); // enables the hidden-until-revealed CSS
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+
+      // Expose so dynamically-added elements (e.g. project cards) can register.
+      window.__revealObserve = function (el) { obs.observe(el); };
+      document.querySelectorAll(".reveal-up").forEach(function (el) { obs.observe(el); });
+    })();
+
     /* ---------- Projects: fetch from the GitHub API ---------- */
     (function () {
       var USERNAME = "elliottevans";
@@ -590,7 +622,7 @@
         var homepageBtn = repo.homepage
           ? '<a href="' + esc(repo.homepage) + '" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-github"></i> Homepage</a>'
           : "";
-        return '<div class="col-md-6"><div class="card shadow-lg p-3 mb-5 bg-white rounded"><div class="card-body">' +
+        return '<div class="col-md-6 reveal-up"><div class="card shadow-lg p-3 mb-5 bg-white rounded"><div class="card-body">' +
           '<h5 class="card-title">' + esc(repo.name) + "</h5>" +
           "<p>" + esc(repo.description) + "</p>" +
           '<div class="d-grid gap-2 d-md-block">' + homepageBtn +
@@ -619,6 +651,12 @@
             html += cardHTML(repos[j], langHtml);
           }
           row.innerHTML = html;
+          // register the freshly-inserted cards with the scroll-reveal observer
+          if (window.__revealObserve) {
+            row.querySelectorAll(".reveal-up").forEach(function (el) {
+              window.__revealObserve(el);
+            });
+          }
         } catch (e) {
           console.error(e);
         }
