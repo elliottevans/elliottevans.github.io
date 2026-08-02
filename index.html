@@ -108,6 +108,51 @@
       transform: translateY(-2px);
     }
 
+    /* ---- Apple-style pill buttons ---- */
+    .btn-apple, .btn-apple-glass, .btn-apple-secondary {
+      border-radius: 980px;
+      border: none;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+    }
+    /* Primary: solid Apple blue */
+    .btn-apple {
+      background: #0071e3;
+      color: #fff;
+      padding: 0.75rem 1.6rem;
+    }
+    .btn-apple:hover, .btn-apple:focus {
+      background: #0077ed;
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(0, 113, 227, 0.35);
+    }
+    /* Hero: frosted glass over the gradient */
+    .btn-apple-glass {
+      background: rgba(255, 255, 255, 0.16);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 0.75rem 1.6rem;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .btn-apple-glass:hover, .btn-apple-glass:focus {
+      background: rgba(255, 255, 255, 0.28);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    /* Secondary: subtle light-gray pill for card actions */
+    .btn-apple-secondary {
+      background: rgba(0, 0, 0, 0.05);
+      color: #1d1d1f;
+      padding: 0.45rem 1.05rem;
+    }
+    .btn-apple-secondary:hover, .btn-apple-secondary:focus {
+      background: rgba(0, 0, 0, 0.09);
+      color: #1d1d1f;
+    }
+
     /* ============================================================
        Career timeline (replaces react-vertical-timeline-component)
        ============================================================ */
@@ -259,7 +304,7 @@
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/elliottevans" aria-label="My github"><i class="fab fa-github fa-3x socialicons"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/elliott-evans/" aria-label="My linkedin"><i class="fab fa-linkedin fa-3x socialicons"></i></a>
       </div>
-      <a class="btn btn-outline-light btn-lg" href="#aboutme" role="button" aria-label="Learn more about me">More about me</a>
+      <a class="btn btn-apple-glass btn-lg" href="#aboutme" role="button" aria-label="Learn more about me">More about me</a>
     </div>
   </header>
 
@@ -269,7 +314,7 @@
       <h2 class="display-4 mb-5 text-center reveal-up">About Me</h2>
       <p class="lead text-center reveal-up d1">I'm a data science manager at Capital One, leading AI-driven models for acquisitions risk. Michigan and Northwestern grad. Lover of anything math, statistics, baseball, and data. Go Blue, go 'Cats, and go O's.</p>
       <p class="lead text-center reveal-up d2">
-        <a class="btn btn-outline-dark btn-lg" href="assets/resume.pdf" target="_blank" rel="noreferrer noopener" role="button" aria-label="Resume/CV">Resume</a>
+        <a class="btn btn-apple btn-lg" href="assets/resume.pdf" target="_blank" rel="noreferrer noopener" role="button" aria-label="Resume/CV">Resume</a>
       </p>
     </div>
   </section>
@@ -620,14 +665,14 @@
       function cardHTML(repo, langHtml) {
         var url = repo.svn_url || repo.html_url;
         var homepageBtn = repo.homepage
-          ? '<a href="' + esc(repo.homepage) + '" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-github"></i> Homepage</a>'
+          ? '<a href="' + esc(repo.homepage) + '" target="_blank" class="btn btn-apple-secondary mx-2"><i class="fab fa-github"></i> Homepage</a>'
           : "";
         return '<div class="col-md-6 reveal-up"><div class="card shadow-lg p-3 mb-5 bg-white rounded"><div class="card-body">' +
           '<h5 class="card-title">' + esc(repo.name) + "</h5>" +
           "<p>" + esc(repo.description) + "</p>" +
           '<div class="d-grid gap-2 d-md-block">' + homepageBtn +
-          '<a href="' + url + '" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-github"></i> Repo</a>' +
-          '<a href="' + url + '/archive/master.zip" class="btn btn-outline-secondary mx-2"><i class="fab fa-github"></i> Clone Project</a>' +
+          '<a href="' + url + '" target="_blank" class="btn btn-apple-secondary mx-2"><i class="fab fa-github"></i> Repo</a>' +
+          '<a href="' + url + '/archive/master.zip" class="btn btn-apple-secondary mx-2"><i class="fab fa-github"></i> Clone Project</a>' +
           "</div><hr />" +
           '<div class="pb-3">Languages: ' + langHtml + "</div>" +
           '<p class="card-text"><a href="' + url + '/stargazers" target="_blank" class="text-dark text-decoration-none">' +
